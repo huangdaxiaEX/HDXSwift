@@ -13,6 +13,18 @@
 		D566530C1D82E968009A299A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56653061D82E968009A299A /* Main.storyboard */; };
 		D566530D1D82E968009A299A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56653081D82E968009A299A /* Images.xcassets */; };
 		D566530E1D82E968009A299A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56653091D82E968009A299A /* Info.plist */; };
+		D56653121D82FDD1009A299A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56653111D82FDD1009A299A /* Alamofire.framework */; };
+		D5A2C9491D82FEA8004DEB41 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */; };
+		D5A2C94A1D82FEA8004DEB41 /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C93F1D82FEA8004DEB41 /* Gloss.framework */; };
+		D5A2C94B1D82FEA8004DEB41 /* PSOperations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9401D82FEA8004DEB41 /* PSOperations.framework */; };
+		D5A2C94C1D82FEA8004DEB41 /* PSOperationsHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9411D82FEA8004DEB41 /* PSOperationsHealth.framework */; };
+		D5A2C94D1D82FEA8004DEB41 /* PSOperationsPassbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9421D82FEA8004DEB41 /* PSOperationsPassbook.framework */; };
+		D5A2C94E1D82FEA8004DEB41 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */; };
+		D5A2C94F1D82FEA8004DEB41 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */; };
+		D5A2C9501D82FEA8004DEB41 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9451D82FEA8004DEB41 /* RxSwift.framework */; };
+		D5A2C9511D82FEA8004DEB41 /* RxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9461D82FEA8004DEB41 /* RxTests.framework */; };
+		D5A2C9521D82FEA8004DEB41 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */; };
+		D5A2C9531D82FEA8004DEB41 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +35,18 @@
 		D56653071D82E968009A299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D56653081D82E968009A299A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D56653091D82E968009A299A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D56653111D82FDD1009A299A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C93F1D82FEA8004DEB41 /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = Carthage/Build/iOS/Gloss.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C9401D82FEA8004DEB41 /* PSOperations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSOperations.framework; path = Carthage/Build/iOS/PSOperations.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C9411D82FEA8004DEB41 /* PSOperationsHealth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSOperationsHealth.framework; path = Carthage/Build/iOS/PSOperationsHealth.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C9421D82FEA8004DEB41 /* PSOperationsPassbook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSOperationsPassbook.framework; path = Carthage/Build/iOS/PSOperationsPassbook.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C9451D82FEA8004DEB41 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C9461D82FEA8004DEB41 /* RxTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTests.framework; path = Carthage/Build/iOS/RxTests.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +54,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A2C9491D82FEA8004DEB41 /* Cartography.framework in Frameworks */,
+				D5A2C94A1D82FEA8004DEB41 /* Gloss.framework in Frameworks */,
+				D5A2C94B1D82FEA8004DEB41 /* PSOperations.framework in Frameworks */,
+				D5A2C94C1D82FEA8004DEB41 /* PSOperationsHealth.framework in Frameworks */,
+				D5A2C94D1D82FEA8004DEB41 /* PSOperationsPassbook.framework in Frameworks */,
+				D5A2C94E1D82FEA8004DEB41 /* RxBlocking.framework in Frameworks */,
+				D5A2C94F1D82FEA8004DEB41 /* RxCocoa.framework in Frameworks */,
+				D5A2C9501D82FEA8004DEB41 /* RxSwift.framework in Frameworks */,
+				D5A2C9511D82FEA8004DEB41 /* RxTests.framework in Frameworks */,
+				D5A2C9521D82FEA8004DEB41 /* SwiftDate.framework in Frameworks */,
+				D5A2C9531D82FEA8004DEB41 /* SwiftyJSON.framework in Frameworks */,
+				D56653121D82FDD1009A299A /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +75,7 @@
 		D56652E51D82E57B009A299A = {
 			isa = PBXGroup;
 			children = (
+				D56653101D82FD76009A299A /* Frameworks */,
 				D56652F01D82E57B009A299A /* HDXSwift */,
 				D56652EF1D82E57B009A299A /* Products */,
 			);
@@ -89,6 +126,25 @@
 			name = Xibs;
 			sourceTree = "<group>";
 		};
+		D56653101D82FD76009A299A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */,
+				D5A2C93F1D82FEA8004DEB41 /* Gloss.framework */,
+				D5A2C9401D82FEA8004DEB41 /* PSOperations.framework */,
+				D5A2C9411D82FEA8004DEB41 /* PSOperationsHealth.framework */,
+				D5A2C9421D82FEA8004DEB41 /* PSOperationsPassbook.framework */,
+				D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */,
+				D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */,
+				D5A2C9451D82FEA8004DEB41 /* RxSwift.framework */,
+				D5A2C9461D82FEA8004DEB41 /* RxTests.framework */,
+				D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */,
+				D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */,
+				D56653111D82FDD1009A299A /* Alamofire.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +155,7 @@
 				D56652EA1D82E57B009A299A /* Sources */,
 				D56652EB1D82E57B009A299A /* Frameworks */,
 				D56652EC1D82E57B009A299A /* Resources */,
+				D56653131D82FDF0009A299A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -155,6 +212,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D56653131D82FDF0009A299A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Cartography.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Gloss.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PSOperations.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PSOperationsHealth.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PSOperationsPassbook.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTests.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D56652EA1D82E57B009A299A /* Sources */ = {
@@ -277,6 +362,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/HDXSwift/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bong.HDXSwift;
@@ -288,6 +377,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/HDXSwift/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bong.HDXSwift;

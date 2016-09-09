@@ -1,0 +1,7 @@
+github "Alamofire/Alamofire"
+github "ReactiveX/RxSwift"
+github "pluralsight/PSOperations"
+github "malcommac/SwiftDate"
+github "SwiftyJSON/SwiftyJSON"
+github "robb/Cartography"
+github "hkellaway/Gloss"
