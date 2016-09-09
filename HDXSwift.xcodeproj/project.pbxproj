@@ -22,7 +22,6 @@
 		D5A2C94E1D82FEA8004DEB41 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */; };
 		D5A2C94F1D82FEA8004DEB41 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */; };
 		D5A2C9501D82FEA8004DEB41 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9451D82FEA8004DEB41 /* RxSwift.framework */; };
-		D5A2C9511D82FEA8004DEB41 /* RxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9461D82FEA8004DEB41 /* RxTests.framework */; };
 		D5A2C9521D82FEA8004DEB41 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */; };
 		D5A2C9531D82FEA8004DEB41 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
@@ -44,7 +43,6 @@
 		D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9451D82FEA8004DEB41 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
-		D5A2C9461D82FEA8004DEB41 /* RxTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTests.framework; path = Carthage/Build/iOS/RxTests.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -62,7 +60,6 @@
 				D5A2C94E1D82FEA8004DEB41 /* RxBlocking.framework in Frameworks */,
 				D5A2C94F1D82FEA8004DEB41 /* RxCocoa.framework in Frameworks */,
 				D5A2C9501D82FEA8004DEB41 /* RxSwift.framework in Frameworks */,
-				D5A2C9511D82FEA8004DEB41 /* RxTests.framework in Frameworks */,
 				D5A2C9521D82FEA8004DEB41 /* SwiftDate.framework in Frameworks */,
 				D5A2C9531D82FEA8004DEB41 /* SwiftyJSON.framework in Frameworks */,
 				D56653121D82FDD1009A299A /* Alamofire.framework in Frameworks */,
@@ -137,7 +134,6 @@
 				D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */,
 				D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */,
 				D5A2C9451D82FEA8004DEB41 /* RxSwift.framework */,
-				D5A2C9461D82FEA8004DEB41 /* RxTests.framework */,
 				D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */,
 				D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */,
 				D56653111D82FDD1009A299A /* Alamofire.framework */,
@@ -229,7 +225,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxTests.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
