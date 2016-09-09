@@ -6,6 +6,8 @@
 //  Copyright © 2016年 huangdaxia. All rights reserved.
 //
 
+import UIKit
+
 extension String {
     func widthWithFont(font: UIFont) -> CGFloat {
         return NSString(string: self).boundingRectWithSize(CGSize(width: CGFloat.max, height: CGFloat.max), options: .UsesLineFragmentOrigin, attributes: [NSFontAttributeName: font], context: nil).size.width

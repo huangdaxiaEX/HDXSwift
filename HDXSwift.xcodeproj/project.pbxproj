@@ -36,6 +36,9 @@
 		D5A2C9861D831142004DEB41 /* String+Substraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9851D831142004DEB41 /* String+Substraction.swift */; };
 		D5A2C9881D8311A3004DEB41 /* String+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9871D8311A3004DEB41 /* String+Emoji.swift */; };
 		D5A2C98A1D8311FE004DEB41 /* String+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9891D8311FE004DEB41 /* String+Version.swift */; };
+		D5A2C98D1D8312CB004DEB41 /* UIView+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C98C1D8312CB004DEB41 /* UIView+Geometry.swift */; };
+		D5A2C98F1D8313DA004DEB41 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C98E1D8313DA004DEB41 /* Color.swift */; };
+		D5A2C9921D8315A8004DEB41 /* Image+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9911D8315A8004DEB41 /* Image+Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +75,9 @@
 		D5A2C9851D831142004DEB41 /* String+Substraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Substraction.swift"; sourceTree = "<group>"; };
 		D5A2C9871D8311A3004DEB41 /* String+Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Emoji.swift"; sourceTree = "<group>"; };
 		D5A2C9891D8311FE004DEB41 /* String+Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Version.swift"; sourceTree = "<group>"; };
+		D5A2C98C1D8312CB004DEB41 /* UIView+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Geometry.swift"; sourceTree = "<group>"; };
+		D5A2C98E1D8313DA004DEB41 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D5A2C9911D8315A8004DEB41 /* Image+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Color.swift"; sourceTree = "<group>"; };
 		E44A8F51A7BDDB2DFEFBB02B /* Pods_HDXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB0793F50D0F4709C38257E /* Pods-HDXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDXSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,6 +210,8 @@
 		D5A2C9681D830CAE004DEB41 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D5A2C9901D83159B004DEB41 /* Image */,
+				D5A2C98B1D8312BC004DEB41 /* View */,
 				D5A2C9731D830D99004DEB41 /* String */,
 			);
 			path = Extensions;
@@ -226,6 +234,7 @@
 		D5A2C96B1D830CAE004DEB41 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D5A2C98E1D8313DA004DEB41 /* Color.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -283,6 +292,22 @@
 			path = "NSData-FastHex";
 			sourceTree = "<group>";
 		};
+		D5A2C98B1D8312BC004DEB41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2C98C1D8312CB004DEB41 /* UIView+Geometry.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D5A2C9901D83159B004DEB41 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2C9911D8315A8004DEB41 /* Image+Color.swift */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -291,13 +316,13 @@
 			buildConfigurationList = D56653001D82E57B009A299A /* Build configuration list for PBXNativeTarget "HDXSwift" */;
 			buildPhases = (
 				9B283A29EF7D65FE2CD138B4 /* [CP] Check Pods Manifest.lock */,
+				D5A2C9561D830393004DEB41 /* SwiftGen */,
 				D56652EA1D82E57B009A299A /* Sources */,
 				D56652EB1D82E57B009A299A /* Frameworks */,
 				D56652EC1D82E57B009A299A /* Resources */,
 				D56653131D82FDF0009A299A /* Carthage Script */,
 				3D94DB7A9D1E09EF26434312 /* [CP] Embed Pods Frameworks */,
 				7F28C96AD346F42C28EF4A1C /* [CP] Copy Pods Resources */,
-				D5A2C9561D830393004DEB41 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -454,12 +479,15 @@
 				D5A2C9751D830DB2004DEB41 /* String+HexData.swift in Sources */,
 				D5A2C9711D830CAE004DEB41 /* AppDelegate.swift in Sources */,
 				D5A2C9771D830DF3004DEB41 /* String+Trim.swift in Sources */,
+				D5A2C9921D8315A8004DEB41 /* Image+Color.swift in Sources */,
 				D5A2C9861D831142004DEB41 /* String+Substraction.swift in Sources */,
 				D5A2C95E1D830512004DEB41 /* Images.swift in Sources */,
 				D5A2C9721D830CAE004DEB41 /* ViewController.swift in Sources */,
 				D5A2C9651D830582004DEB41 /* Localizations.swift in Sources */,
 				D5A2C9841D831109004DEB41 /* String+Height.swift in Sources */,
 				D5A2C97B1D830EF2004DEB41 /* NSData+FastHex.m in Sources */,
+				D5A2C98F1D8313DA004DEB41 /* Color.swift in Sources */,
+				D5A2C98D1D8312CB004DEB41 /* UIView+Geometry.swift in Sources */,
 				D5A2C9821D8310DB004DEB41 /* String+Width.swift in Sources */,
 				D5A2C9881D8311A3004DEB41 /* String+Emoji.swift in Sources */,
 				D5A2C98A1D8311FE004DEB41 /* String+Version.swift in Sources */,
