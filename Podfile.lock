@@ -1,0 +1,15 @@
+PODS:
+  - DynamicColor (2.4.0)
+  - SwiftGen (3.0.0)
+
+DEPENDENCIES:
+  - DynamicColor (~> 2.0)
+  - SwiftGen
+
+SPEC CHECKSUMS:
+  DynamicColor: 2f3fd61053684667bad9f03045dcf9a2a5a007ea
+  SwiftGen: f679cd0ed4173a5da3b01efd0da23542bf82f6ab
+
+PODFILE CHECKSUM: 5c44f5459490fbb2c275291b32f9486222ce4846
+
+COCOAPODS: 1.0.1
