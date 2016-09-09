@@ -38,5 +38,5 @@ Carthage
 fastlane/report.xml
 
 # Auto generated files
-bong/Resources/Localizations.swift
-bong/Resources/Images.swift
+HDXSwift/Resources/Localizations.swift
+HDXSwift/Resources/Images.swift
