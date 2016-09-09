@@ -28,6 +28,14 @@
 		D5A2C9651D830582004DEB41 /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9641D830582004DEB41 /* Localizations.swift */; };
 		D5A2C9711D830CAE004DEB41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9671D830CAE004DEB41 /* AppDelegate.swift */; };
 		D5A2C9721D830CAE004DEB41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C96E1D830CAE004DEB41 /* ViewController.swift */; };
+		D5A2C9751D830DB2004DEB41 /* String+HexData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9741D830DB2004DEB41 /* String+HexData.swift */; };
+		D5A2C9771D830DF3004DEB41 /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9761D830DF3004DEB41 /* String+Trim.swift */; };
+		D5A2C97B1D830EF2004DEB41 /* NSData+FastHex.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C97A1D830EF2004DEB41 /* NSData+FastHex.m */; };
+		D5A2C9821D8310DB004DEB41 /* String+Width.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9811D8310DB004DEB41 /* String+Width.swift */; };
+		D5A2C9841D831109004DEB41 /* String+Height.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9831D831109004DEB41 /* String+Height.swift */; };
+		D5A2C9861D831142004DEB41 /* String+Substraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9851D831142004DEB41 /* String+Substraction.swift */; };
+		D5A2C9881D8311A3004DEB41 /* String+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9871D8311A3004DEB41 /* String+Emoji.swift */; };
+		D5A2C98A1D8311FE004DEB41 /* String+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9891D8311FE004DEB41 /* String+Version.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +62,16 @@
 		D5A2C9641D830582004DEB41 /* Localizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizations.swift; sourceTree = "<group>"; };
 		D5A2C9671D830CAE004DEB41 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5A2C96E1D830CAE004DEB41 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5A2C9741D830DB2004DEB41 /* String+HexData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HexData.swift"; sourceTree = "<group>"; };
+		D5A2C9761D830DF3004DEB41 /* String+Trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
+		D5A2C9791D830EF2004DEB41 /* NSData+FastHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+FastHex.h"; sourceTree = "<group>"; };
+		D5A2C97A1D830EF2004DEB41 /* NSData+FastHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+FastHex.m"; sourceTree = "<group>"; };
+		D5A2C97F1D830F70004DEB41 /* ObjectiveC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveC-Bridging-Header.h"; sourceTree = "<group>"; };
+		D5A2C9811D8310DB004DEB41 /* String+Width.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Width.swift"; sourceTree = "<group>"; };
+		D5A2C9831D831109004DEB41 /* String+Height.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Height.swift"; sourceTree = "<group>"; };
+		D5A2C9851D831142004DEB41 /* String+Substraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Substraction.swift"; sourceTree = "<group>"; };
+		D5A2C9871D8311A3004DEB41 /* String+Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Emoji.swift"; sourceTree = "<group>"; };
+		D5A2C9891D8311FE004DEB41 /* String+Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Version.swift"; sourceTree = "<group>"; };
 		E44A8F51A7BDDB2DFEFBB02B /* Pods_HDXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB0793F50D0F4709C38257E /* Pods-HDXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDXSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +129,7 @@
 		D56652F01D82E57B009A299A /* HDXSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D5A2C97F1D830F70004DEB41 /* ObjectiveC-Bridging-Header.h */,
 				D5A2C9661D830CAE004DEB41 /* Controllers */,
 				D5A2C9681D830CAE004DEB41 /* Extensions */,
 				D5A2C9691D830CAE004DEB41 /* Models */,
@@ -185,6 +204,7 @@
 		D5A2C9681D830CAE004DEB41 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D5A2C9731D830D99004DEB41 /* String */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -213,6 +233,7 @@
 		D5A2C96C1D830CAE004DEB41 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				D5A2C9781D830EF2004DEB41 /* NSData-FastHex */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -237,6 +258,29 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D5A2C9731D830D99004DEB41 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2C9741D830DB2004DEB41 /* String+HexData.swift */,
+				D5A2C9761D830DF3004DEB41 /* String+Trim.swift */,
+				D5A2C9811D8310DB004DEB41 /* String+Width.swift */,
+				D5A2C9831D831109004DEB41 /* String+Height.swift */,
+				D5A2C9851D831142004DEB41 /* String+Substraction.swift */,
+				D5A2C9871D8311A3004DEB41 /* String+Emoji.swift */,
+				D5A2C9891D8311FE004DEB41 /* String+Version.swift */,
+			);
+			name = String;
+			sourceTree = "<group>";
+		};
+		D5A2C9781D830EF2004DEB41 /* NSData-FastHex */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2C9791D830EF2004DEB41 /* NSData+FastHex.h */,
+				D5A2C97A1D830EF2004DEB41 /* NSData+FastHex.m */,
+			);
+			path = "NSData-FastHex";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,10 +451,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A2C9751D830DB2004DEB41 /* String+HexData.swift in Sources */,
 				D5A2C9711D830CAE004DEB41 /* AppDelegate.swift in Sources */,
+				D5A2C9771D830DF3004DEB41 /* String+Trim.swift in Sources */,
+				D5A2C9861D831142004DEB41 /* String+Substraction.swift in Sources */,
 				D5A2C95E1D830512004DEB41 /* Images.swift in Sources */,
 				D5A2C9721D830CAE004DEB41 /* ViewController.swift in Sources */,
 				D5A2C9651D830582004DEB41 /* Localizations.swift in Sources */,
+				D5A2C9841D831109004DEB41 /* String+Height.swift in Sources */,
+				D5A2C97B1D830EF2004DEB41 /* NSData+FastHex.m in Sources */,
+				D5A2C9821D8310DB004DEB41 /* String+Width.swift in Sources */,
+				D5A2C9881D8311A3004DEB41 /* String+Emoji.swift in Sources */,
+				D5A2C98A1D8311FE004DEB41 /* String+Version.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +595,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bong.HDXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HDXSwift/ObjectiveC-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -559,6 +612,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bong.HDXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HDXSwift/ObjectiveC-Bridging-Header.h";
 			};
 			name = Release;
 		};
