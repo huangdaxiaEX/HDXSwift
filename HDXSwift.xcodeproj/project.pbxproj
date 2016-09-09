@@ -25,6 +25,9 @@
 		D5A2C9501D82FEA8004DEB41 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9451D82FEA8004DEB41 /* RxSwift.framework */; };
 		D5A2C9521D82FEA8004DEB41 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */; };
 		D5A2C9531D82FEA8004DEB41 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */; };
+		D5A2C95E1D830512004DEB41 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C95D1D830512004DEB41 /* Images.swift */; };
+		D5A2C9631D830572004DEB41 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5A2C9601D830572004DEB41 /* Localizable.strings */; };
+		D5A2C9651D830582004DEB41 /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9641D830582004DEB41 /* Localizations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,10 @@
 		D5A2C9451D82FEA8004DEB41 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = SOURCE_ROOT; };
+		D5A2C95D1D830512004DEB41 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		D5A2C9611D830572004DEB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D5A2C9621D830572004DEB41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D5A2C9641D830582004DEB41 /* Localizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizations.swift; sourceTree = "<group>"; };
 		E44A8F51A7BDDB2DFEFBB02B /* Pods_HDXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB0793F50D0F4709C38257E /* Pods-HDXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDXSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,19 +121,14 @@
 		D56653031D82E968009A299A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D566530F1D82E998009A299A /* Xibs */,
+				D5A2C9641D830582004DEB41 /* Localizations.swift */,
+				D5A2C95D1D830512004DEB41 /* Images.swift */,
 				D56653081D82E968009A299A /* Images.xcassets */,
 				D56653091D82E968009A299A /* Info.plist */,
-				D566530A1D82E968009A299A /* Loczilation */,
+				D566530F1D82E998009A299A /* Xibs */,
+				D5A2C95F1D830572004DEB41 /* Localization */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		D566530A1D82E968009A299A /* Loczilation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Loczilation;
 			sourceTree = "<group>";
 		};
 		D566530F1D82E998009A299A /* Xibs */ = {
@@ -157,6 +159,14 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
+		D5A2C95F1D830572004DEB41 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2C9601D830572004DEB41 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +178,10 @@
 				D56652EA1D82E57B009A299A /* Sources */,
 				D56652EB1D82E57B009A299A /* Frameworks */,
 				D56652EC1D82E57B009A299A /* Resources */,
-				D56653131D82FDF0009A299A /* ShellScript */,
+				D56653131D82FDF0009A299A /* Carthage Script */,
 				3D94DB7A9D1E09EF26434312 /* [CP] Embed Pods Frameworks */,
 				7F28C96AD346F42C28EF4A1C /* [CP] Copy Pods Resources */,
+				D5A2C9561D830393004DEB41 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -187,6 +198,9 @@
 		D56652E61D82E57B009A299A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Simplified,
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = huangdaxia;
@@ -219,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A2C9631D830572004DEB41 /* Localizable.strings in Resources */,
 				D566530C1D82E968009A299A /* Main.storyboard in Resources */,
 				D566530B1D82E968009A299A /* LaunchScreen.storyboard in Resources */,
 				D566530D1D82E968009A299A /* Images.xcassets in Resources */,
@@ -274,7 +289,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D56653131D82FDF0009A299A /* ShellScript */ = {
+		D56653131D82FDF0009A299A /* Carthage Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,11 +307,26 @@
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
+			name = "Carthage Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		D5A2C9561D830393004DEB41 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\"$PODS_ROOT/SwiftGen/bin/swiftgen\" images \"$PROJECT_DIR\" --output \"$PROJECT_DIR/HDXSwift/Resources/Images.swift\"\n\"$PODS_ROOT/SwiftGen/bin/swiftgen\" strings \"$PROJECT_DIR/HDXSwift/Resources/Localization/Base.lproj/Localizable.strings\" --output \"$PROJECT_DIR/HDXSwift/Resources/Localizations.swift\" --templatePath \"$PROJECT_DIR/HDXSwift/Resources/Templates/strings-default.stencil\"\n\n\"$PODS_ROOT/SwiftGen/bin/swiftgen\" images \"$PROJECT_DIR/HDXSwift/Resources/Images.xcassets\" --output \"$PROJECT_DIR/HDXSwift/Resources/Images.swift\" --templatePath \"$PROJECT_DIR/HDXSwift/Resources/Templates/images-default.stencil\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -306,6 +336,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D56652F41D82E57B009A299A /* ViewController.swift in Sources */,
+				D5A2C95E1D830512004DEB41 /* Images.swift in Sources */,
+				D5A2C9651D830582004DEB41 /* Localizations.swift in Sources */,
 				D56652F21D82E57B009A299A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +359,15 @@
 				D56653071D82E968009A299A /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5A2C9601D830572004DEB41 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A2C9611D830572004DEB41 /* Base */,
+				D5A2C9621D830572004DEB41 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
