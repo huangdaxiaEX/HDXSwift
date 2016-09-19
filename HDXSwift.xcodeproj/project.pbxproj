@@ -33,6 +33,13 @@
 		D5A2C98D1D8312CB004DEB41 /* UIView+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C98C1D8312CB004DEB41 /* UIView+Geometry.swift */; };
 		D5A2C98F1D8313DA004DEB41 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C98E1D8313DA004DEB41 /* Color.swift */; };
 		D5A2C9921D8315A8004DEB41 /* Image+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9911D8315A8004DEB41 /* Image+Color.swift */; };
+		D5ECA2781D9026B80041C2F4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D5ECA2771D9026B80041C2F4 /* Settings.bundle */; };
+		D5ECA27D1D90314D0041C2F4 /* CommonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ECA27C1D90314D0041C2F4 /* CommonAPI.swift */; };
+		D5ECA27F1D9032340041C2F4 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ECA27E1D9032340041C2F4 /* TargetType.swift */; };
+		D5ECA2811D9033190041C2F4 /* AppSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ECA2801D9033190041C2F4 /* AppSetup.swift */; };
+		D5ECA2871D9036320041C2F4 /* ErrorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ECA2861D9036320041C2F4 /* ErrorConvertible.swift */; };
+		D5ECA2891D903A2B0041C2F4 /* APIInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ECA2881D903A2B0041C2F4 /* APIInvoker.swift */; };
+		D5ECA28B1D903FD10041C2F4 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ECA28A1D903FD10041C2F4 /* Timer.swift */; };
 		EF21D63FA268DC7AA8E2C81B /* Pods_HDXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1CF98228BACFEAA7DF7248 /* Pods_HDXSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,15 +54,10 @@
 		D56653091D82E968009A299A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D56653111D82FDD1009A299A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = SOURCE_ROOT; };
-		D5A2C93F1D82FEA8004DEB41 /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = Carthage/Build/iOS/Gloss.framework; sourceTree = SOURCE_ROOT; };
-		D5A2C9401D82FEA8004DEB41 /* PSOperations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSOperations.framework; path = Carthage/Build/iOS/PSOperations.framework; sourceTree = SOURCE_ROOT; };
-		D5A2C9411D82FEA8004DEB41 /* PSOperationsHealth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSOperationsHealth.framework; path = Carthage/Build/iOS/PSOperationsHealth.framework; sourceTree = SOURCE_ROOT; };
-		D5A2C9421D82FEA8004DEB41 /* PSOperationsPassbook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSOperationsPassbook.framework; path = Carthage/Build/iOS/PSOperationsPassbook.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9451D82FEA8004DEB41 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = SOURCE_ROOT; };
-		D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C95D1D830512004DEB41 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		D5A2C9611D830572004DEB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D5A2C9621D830572004DEB41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -75,6 +77,13 @@
 		D5A2C98C1D8312CB004DEB41 /* UIView+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Geometry.swift"; sourceTree = "<group>"; };
 		D5A2C98E1D8313DA004DEB41 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D5A2C9911D8315A8004DEB41 /* Image+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Color.swift"; sourceTree = "<group>"; };
+		D5ECA2771D9026B80041C2F4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D5ECA27C1D90314D0041C2F4 /* CommonAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonAPI.swift; sourceTree = "<group>"; };
+		D5ECA27E1D9032340041C2F4 /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		D5ECA2801D9033190041C2F4 /* AppSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSetup.swift; sourceTree = "<group>"; };
+		D5ECA2861D9036320041C2F4 /* ErrorConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorConvertible.swift; sourceTree = "<group>"; };
+		D5ECA2881D903A2B0041C2F4 /* APIInvoker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIInvoker.swift; sourceTree = "<group>"; };
+		D5ECA28A1D903FD10041C2F4 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +158,7 @@
 				D56653091D82E968009A299A /* Info.plist */,
 				D566530F1D82E998009A299A /* Xibs */,
 				D5A2C95F1D830572004DEB41 /* Localization */,
+				D5ECA2771D9026B80041C2F4 /* Settings.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -166,15 +176,10 @@
 			isa = PBXGroup;
 			children = (
 				D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */,
-				D5A2C93F1D82FEA8004DEB41 /* Gloss.framework */,
-				D5A2C9401D82FEA8004DEB41 /* PSOperations.framework */,
-				D5A2C9411D82FEA8004DEB41 /* PSOperationsHealth.framework */,
-				D5A2C9421D82FEA8004DEB41 /* PSOperationsPassbook.framework */,
 				D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */,
 				D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */,
 				D5A2C9451D82FEA8004DEB41 /* RxSwift.framework */,
 				D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */,
-				D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */,
 				D56653111D82FDD1009A299A /* Alamofire.framework */,
 				2A1CF98228BACFEAA7DF7248 /* Pods_HDXSwift.framework */,
 			);
@@ -217,6 +222,7 @@
 		D5A2C96A1D830CAE004DEB41 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				D5ECA2861D9036320041C2F4 /* ErrorConvertible.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -224,7 +230,10 @@
 		D5A2C96B1D830CAE004DEB41 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D5ECA27B1D9031200041C2F4 /* Network */,
 				D5A2C98E1D8313DA004DEB41 /* Color.swift */,
+				D5ECA2801D9033190041C2F4 /* AppSetup.swift */,
+				D5ECA28A1D903FD10041C2F4 /* Timer.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -298,6 +307,16 @@
 			name = Image;
 			sourceTree = "<group>";
 		};
+		D5ECA27B1D9031200041C2F4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D5ECA27C1D90314D0041C2F4 /* CommonAPI.swift */,
+				D5ECA27E1D9032340041C2F4 /* TargetType.swift */,
+				D5ECA2881D903A2B0041C2F4 /* APIInvoker.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -313,6 +332,9 @@
 				D56652EC1D82E57B009A299A /* Resources */,
 				8D1931CCC51F501B0B96067D /* [CP] Embed Pods Frameworks */,
 				80A6E4EDFBCD9B2C21F3E479 /* [CP] Copy Pods Resources */,
+				D5ECA2791D902EC80041C2F4 /* Auto-increment the archive version number */,
+				D5ECA27A1D902EE00041C2F4 /* Auto-increment build number */,
+				D5ECA2761D9025BA0041C2F4 /* Update Bundle count */,
 			);
 			buildRules = (
 			);
@@ -370,6 +392,7 @@
 				D566530C1D82E968009A299A /* Main.storyboard in Resources */,
 				D566530B1D82E968009A299A /* LaunchScreen.storyboard in Resources */,
 				D566530D1D82E968009A299A /* Images.xcassets in Resources */,
+				D5ECA2781D9026B80041C2F4 /* Settings.bundle in Resources */,
 				D566530E1D82E968009A299A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,7 +477,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#\"$PODS_ROOT/SwiftGen/bin/swiftgen\" images \"$PROJECT_DIR\" --output \"$PROJECT_DIR/HDXSwift/Resources/Images.swift\"\n\"$PODS_ROOT/SwiftGen/bin/swiftgen\" strings \"$PROJECT_DIR/HDXSwift/Resources/Localization/Base.lproj/Localizable.strings\" --output \"$PROJECT_DIR/HDXSwift/Resources/Localizations.swift\" --templatePath \"$PROJECT_DIR/HDXSwift/Resources/Templates/strings-default.stencil\"\n\n\"$PODS_ROOT/SwiftGen/bin/swiftgen\" images \"$PROJECT_DIR/HDXSwift/Resources/Images.xcassets\" --output \"$PROJECT_DIR/HDXSwift/Resources/Images.swift\" --templatePath \"$PROJECT_DIR/HDXSwift/Resources/Templates/images-default.stencil\"";
+			shellScript = "\"$PODS_ROOT/SwiftGen/bin/swiftgen\" strings \"$PROJECT_DIR/HDXSwift/Resources/Localization/Base.lproj/Localizable.strings\" --output \"$PROJECT_DIR/HDXSwift/Resources/Localizations.swift\" --templatePath \"$PROJECT_DIR/HDXSwift/Resources/Templates/strings-default.stencil\"\n\n\"$PODS_ROOT/SwiftGen/bin/swiftgen\" images \"$PROJECT_DIR/HDXSwift/Resources/Images.xcassets\" --output \"$PROJECT_DIR/HDXSwift/Resources/Images.swift\" --templatePath \"$PROJECT_DIR/HDXSwift/Resources/Templates/images-default.stencil\"";
+		};
+		D5ECA2761D9025BA0041C2F4 /* Update Bundle count */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Bundle count";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nversionNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:0:Title 'Version ${versionNumber} (Build ${buildNumber})'\" \"${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Settings.bundle/Root.plist\"";
+		};
+		D5ECA2791D902EC80041C2F4 /* Auto-increment the archive version number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Auto-increment the archive version number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${SRCROOT}/Scripts\" && sh \"./increase-version-number.sh\"";
+		};
+		D5ECA27A1D902EE00041C2F4 /* Auto-increment build number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Auto-increment build number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${SRCROOT}/Scripts\" && sh \"./increase-build-number.sh\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -470,14 +535,20 @@
 				D5A2C9861D831142004DEB41 /* String+Substraction.swift in Sources */,
 				D5A2C95E1D830512004DEB41 /* Images.swift in Sources */,
 				D5A2C9721D830CAE004DEB41 /* ViewController.swift in Sources */,
+				D5ECA2871D9036320041C2F4 /* ErrorConvertible.swift in Sources */,
 				D5A2C9651D830582004DEB41 /* Localizations.swift in Sources */,
+				D5ECA28B1D903FD10041C2F4 /* Timer.swift in Sources */,
 				D5A2C9841D831109004DEB41 /* String+Height.swift in Sources */,
 				D5A2C97B1D830EF2004DEB41 /* NSData+FastHex.m in Sources */,
 				D5A2C98F1D8313DA004DEB41 /* Color.swift in Sources */,
+				D5ECA2811D9033190041C2F4 /* AppSetup.swift in Sources */,
 				D5A2C98D1D8312CB004DEB41 /* UIView+Geometry.swift in Sources */,
 				D5A2C9821D8310DB004DEB41 /* String+Width.swift in Sources */,
+				D5ECA2891D903A2B0041C2F4 /* APIInvoker.swift in Sources */,
+				D5ECA27D1D90314D0041C2F4 /* CommonAPI.swift in Sources */,
 				D5A2C9881D8311A3004DEB41 /* String+Emoji.swift in Sources */,
 				D5A2C98A1D8311FE004DEB41 /* String+Version.swift in Sources */,
+				D5ECA27F1D9032340041C2F4 /* TargetType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
