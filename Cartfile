@@ -1,7 +1,6 @@
-github "Alamofire/Alamofire"
-github "ReactiveX/RxSwift"
-github "pluralsight/PSOperations"
-github "malcommac/SwiftDate"
-github "SwiftyJSON/SwiftyJSON"
-github "robb/Cartography"
-github "hkellaway/Gloss"
+github "Alamofire/Alamofire"  ~> 3.5.0
+github "ReactiveX/RxSwift" ~>2.0
+git "https://github.com/malcommac/SwiftDate.git" "feature/swift_23"
+github "SwiftyJSON/SwiftyJSON" ~> 2.3
+github "robb/Cartography" ~> 0.7
+#github "hkellaway/Gloss" ~> 0.7

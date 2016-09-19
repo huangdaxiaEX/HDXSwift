@@ -7,22 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5553156E63F985EE48AF4D18 /* Pods_HDXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44A8F51A7BDDB2DFEFBB02B /* Pods_HDXSwift.framework */; };
 		D566530B1D82E968009A299A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56653041D82E968009A299A /* LaunchScreen.storyboard */; };
 		D566530C1D82E968009A299A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56653061D82E968009A299A /* Main.storyboard */; };
 		D566530D1D82E968009A299A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56653081D82E968009A299A /* Images.xcassets */; };
 		D566530E1D82E968009A299A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56653091D82E968009A299A /* Info.plist */; };
 		D56653121D82FDD1009A299A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56653111D82FDD1009A299A /* Alamofire.framework */; };
 		D5A2C9491D82FEA8004DEB41 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */; };
-		D5A2C94A1D82FEA8004DEB41 /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C93F1D82FEA8004DEB41 /* Gloss.framework */; };
-		D5A2C94B1D82FEA8004DEB41 /* PSOperations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9401D82FEA8004DEB41 /* PSOperations.framework */; };
-		D5A2C94C1D82FEA8004DEB41 /* PSOperationsHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9411D82FEA8004DEB41 /* PSOperationsHealth.framework */; };
-		D5A2C94D1D82FEA8004DEB41 /* PSOperationsPassbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9421D82FEA8004DEB41 /* PSOperationsPassbook.framework */; };
 		D5A2C94E1D82FEA8004DEB41 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */; };
 		D5A2C94F1D82FEA8004DEB41 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */; };
 		D5A2C9501D82FEA8004DEB41 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9451D82FEA8004DEB41 /* RxSwift.framework */; };
 		D5A2C9521D82FEA8004DEB41 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */; };
-		D5A2C9531D82FEA8004DEB41 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */; };
 		D5A2C95E1D830512004DEB41 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C95D1D830512004DEB41 /* Images.swift */; };
 		D5A2C9631D830572004DEB41 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5A2C9601D830572004DEB41 /* Localizable.strings */; };
 		D5A2C9651D830582004DEB41 /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9641D830582004DEB41 /* Localizations.swift */; };
@@ -39,10 +33,13 @@
 		D5A2C98D1D8312CB004DEB41 /* UIView+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C98C1D8312CB004DEB41 /* UIView+Geometry.swift */; };
 		D5A2C98F1D8313DA004DEB41 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C98E1D8313DA004DEB41 /* Color.swift */; };
 		D5A2C9921D8315A8004DEB41 /* Image+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9911D8315A8004DEB41 /* Image+Color.swift */; };
+		EF21D63FA268DC7AA8E2C81B /* Pods_HDXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1CF98228BACFEAA7DF7248 /* Pods_HDXSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B42BF6AB1F8EC3DE0B3034C6 /* Pods-HDXSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDXSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		16052B28F6F15D927BFA3D53 /* Pods-HDXSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDXSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		1E5A4545EC9D30C9AD698E3B /* Pods-HDXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDXSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift.release.xcconfig"; sourceTree = "<group>"; };
+		2A1CF98228BACFEAA7DF7248 /* Pods_HDXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56652EE1D82E57B009A299A /* HDXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56653051D82E968009A299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D56653071D82E968009A299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,8 +75,6 @@
 		D5A2C98C1D8312CB004DEB41 /* UIView+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Geometry.swift"; sourceTree = "<group>"; };
 		D5A2C98E1D8313DA004DEB41 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D5A2C9911D8315A8004DEB41 /* Image+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Color.swift"; sourceTree = "<group>"; };
-		E44A8F51A7BDDB2DFEFBB02B /* Pods_HDXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDB0793F50D0F4709C38257E /* Pods-HDXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDXSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,28 +83,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5A2C9491D82FEA8004DEB41 /* Cartography.framework in Frameworks */,
-				D5A2C94A1D82FEA8004DEB41 /* Gloss.framework in Frameworks */,
-				D5A2C94B1D82FEA8004DEB41 /* PSOperations.framework in Frameworks */,
-				D5A2C94C1D82FEA8004DEB41 /* PSOperationsHealth.framework in Frameworks */,
-				D5A2C94D1D82FEA8004DEB41 /* PSOperationsPassbook.framework in Frameworks */,
 				D5A2C94E1D82FEA8004DEB41 /* RxBlocking.framework in Frameworks */,
 				D5A2C94F1D82FEA8004DEB41 /* RxCocoa.framework in Frameworks */,
 				D5A2C9501D82FEA8004DEB41 /* RxSwift.framework in Frameworks */,
 				D5A2C9521D82FEA8004DEB41 /* SwiftDate.framework in Frameworks */,
-				D5A2C9531D82FEA8004DEB41 /* SwiftyJSON.framework in Frameworks */,
 				D56653121D82FDD1009A299A /* Alamofire.framework in Frameworks */,
-				5553156E63F985EE48AF4D18 /* Pods_HDXSwift.framework in Frameworks */,
+				EF21D63FA268DC7AA8E2C81B /* Pods_HDXSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7148EA977405BB0EE7533A58 /* Pods */ = {
+		ADBBE1339FCCAF86C1A32D37 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B42BF6AB1F8EC3DE0B3034C6 /* Pods-HDXSwift.debug.xcconfig */,
-				EDB0793F50D0F4709C38257E /* Pods-HDXSwift.release.xcconfig */,
+				16052B28F6F15D927BFA3D53 /* Pods-HDXSwift.debug.xcconfig */,
+				1E5A4545EC9D30C9AD698E3B /* Pods-HDXSwift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -120,7 +110,7 @@
 				D56652F01D82E57B009A299A /* HDXSwift */,
 				D56652EF1D82E57B009A299A /* Products */,
 				D56653101D82FD76009A299A /* Frameworks */,
-				7148EA977405BB0EE7533A58 /* Pods */,
+				ADBBE1339FCCAF86C1A32D37 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,7 +176,7 @@
 				D5A2C9471D82FEA8004DEB41 /* SwiftDate.framework */,
 				D5A2C9481D82FEA8004DEB41 /* SwiftyJSON.framework */,
 				D56653111D82FDD1009A299A /* Alamofire.framework */,
-				E44A8F51A7BDDB2DFEFBB02B /* Pods_HDXSwift.framework */,
+				2A1CF98228BACFEAA7DF7248 /* Pods_HDXSwift.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -315,14 +305,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D56653001D82E57B009A299A /* Build configuration list for PBXNativeTarget "HDXSwift" */;
 			buildPhases = (
-				9B283A29EF7D65FE2CD138B4 /* [CP] Check Pods Manifest.lock */,
+				67A7679574E1B34B8B27C458 /* [CP] Check Pods Manifest.lock */,
 				D5A2C9561D830393004DEB41 /* SwiftGen */,
+				D56653131D82FDF0009A299A /* Carthage Script */,
 				D56652EA1D82E57B009A299A /* Sources */,
 				D56652EB1D82E57B009A299A /* Frameworks */,
 				D56652EC1D82E57B009A299A /* Resources */,
-				D56653131D82FDF0009A299A /* Carthage Script */,
-				3D94DB7A9D1E09EF26434312 /* [CP] Embed Pods Frameworks */,
-				7F28C96AD346F42C28EF4A1C /* [CP] Copy Pods Resources */,
+				8D1931CCC51F501B0B96067D /* [CP] Embed Pods Frameworks */,
+				80A6E4EDFBCD9B2C21F3E479 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -348,6 +338,8 @@
 				TargetAttributes = {
 					D56652ED1D82E57B009A299A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = J7XJK67HUB;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -385,37 +377,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3D94DB7A9D1E09EF26434312 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F28C96AD346F42C28EF4A1C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9B283A29EF7D65FE2CD138B4 /* [CP] Check Pods Manifest.lock */ = {
+		67A7679574E1B34B8B27C458 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -430,6 +392,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		80A6E4EDFBCD9B2C21F3E479 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D1931CCC51F501B0B96067D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D56653131D82FDF0009A299A /* Carthage Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,15 +430,10 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Cartography.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Gloss.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/PSOperations.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/PSOperationsHealth.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/PSOperationsPassbook.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			name = "Carthage Script";
 			outputPaths = (
@@ -543,6 +530,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -567,6 +555,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -589,7 +578,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -605,6 +595,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -612,35 +603,44 @@
 		};
 		D56653011D82E57B009A299A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B42BF6AB1F8EC3DE0B3034C6 /* Pods-HDXSwift.debug.xcconfig */;
+			baseConfigurationReference = 16052B28F6F15D927BFA3D53 /* Pods-HDXSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = J7XJK67HUB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/HDXSwift/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bong.HDXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HDXSwift/ObjectiveC-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		D56653021D82E57B009A299A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDB0793F50D0F4709C38257E /* Pods-HDXSwift.release.xcconfig */;
+			baseConfigurationReference = 1E5A4545EC9D30C9AD698E3B /* Pods-HDXSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = J7XJK67HUB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/HDXSwift/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bong.HDXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HDXSwift/ObjectiveC-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
