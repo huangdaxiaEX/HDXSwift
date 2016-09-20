@@ -8,6 +8,7 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 import Cartography
 import DynamicColor
 
@@ -54,6 +55,40 @@ class ViewController: UIViewController {
         if shouldShowDismissBarButtonWhenNeeded {
             setupDismissBarButtonItem()
         }
+    }
+    
+    private var inset = false
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.setNavigationBarHidden(false, animated: true)
+        if automaticallyAdjustsScrollViewInsets && !inset {
+            inset = true
+            if view.subviews.count > 1 {
+                if let v = view.subviews[1] as? UIScrollView {
+                    v.contentInset = UIEdgeInsets(top: (navigationController?.navigationBar.bounds.height ?? 0) + 20, left: 0, bottom: tabBarController?.tabBar.bounds.height ?? 0, right: 0)
+                    v.contentOffset = CGPoint(x: 0, y: -v.contentInset.top)
+                }
+            }
+        }
+        
+        view.setNeedsUpdateConstraints()
+        
+        if let `keyboardFrameChange` = keyboardFrameChange {
+            keyboardSubscription?.dispose()
+            keyboardSubscription = NSNotificationCenter.defaultCenter().rx_notification(UIKeyboardWillChangeFrameNotification)
+                .subscribeNext({ note in
+                    guard let userInfo = note.userInfo,
+                        duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? Int,
+                        curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? UInt,
+                        keyboardEndFrame = userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue
+                        else {
+                            return
+                    }
+                    keyboardFrameChange(duration: duration, curev: curve, keyboardEndFrame: keyboardEndFrame)
+                })
+        }
+        
     }
     
     override func updateViewConstraints() {
