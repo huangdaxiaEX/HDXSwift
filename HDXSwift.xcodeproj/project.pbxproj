@@ -12,6 +12,7 @@
 		D566530D1D82E968009A299A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56653081D82E968009A299A /* Images.xcassets */; };
 		D566530E1D82E968009A299A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56653091D82E968009A299A /* Info.plist */; };
 		D56653121D82FDD1009A299A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56653111D82FDD1009A299A /* Alamofire.framework */; };
+		D59DC2E81D918DF900AB8E6F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59DC2E71D918DF900AB8E6F /* WebViewController.swift */; };
 		D5A2C9491D82FEA8004DEB41 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */; };
 		D5A2C94E1D82FEA8004DEB41 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */; };
 		D5A2C94F1D82FEA8004DEB41 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */; };
@@ -53,6 +54,7 @@
 		D56653081D82E968009A299A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D56653091D82E968009A299A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D56653111D82FDD1009A299A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		D59DC2E71D918DF900AB8E6F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
@@ -250,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				D5A2C96E1D830CAE004DEB41 /* ViewController.swift */,
+				D59DC2E71D918DF900AB8E6F /* WebViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5A2C9751D830DB2004DEB41 /* String+HexData.swift in Sources */,
+				D59DC2E81D918DF900AB8E6F /* WebViewController.swift in Sources */,
 				D5A2C9711D830CAE004DEB41 /* AppDelegate.swift in Sources */,
 				D5A2C9771D830DF3004DEB41 /* String+Trim.swift in Sources */,
 				D5A2C9921D8315A8004DEB41 /* Image+Color.swift in Sources */,
