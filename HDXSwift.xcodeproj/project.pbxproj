@@ -12,7 +12,9 @@
 		D566530D1D82E968009A299A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56653081D82E968009A299A /* Images.xcassets */; };
 		D566530E1D82E968009A299A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56653091D82E968009A299A /* Info.plist */; };
 		D56653121D82FDD1009A299A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56653111D82FDD1009A299A /* Alamofire.framework */; };
+		D594B9F31D9441E9006DDC20 /* Selectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594B9F21D9441E9006DDC20 /* Selectable.swift */; };
 		D59DC2E81D918DF900AB8E6F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59DC2E71D918DF900AB8E6F /* WebViewController.swift */; };
+		D59DC4151D93D0E100AB8E6F /* CellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59DC4141D93D0E100AB8E6F /* CellConfigurator.swift */; };
 		D5A2C9491D82FEA8004DEB41 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */; };
 		D5A2C94E1D82FEA8004DEB41 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */; };
 		D5A2C94F1D82FEA8004DEB41 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */; };
@@ -54,7 +56,9 @@
 		D56653081D82E968009A299A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D56653091D82E968009A299A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D56653111D82FDD1009A299A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		D594B9F21D9441E9006DDC20 /* Selectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selectable.swift; sourceTree = "<group>"; };
 		D59DC2E71D918DF900AB8E6F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D59DC4141D93D0E100AB8E6F /* CellConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellConfigurator.swift; sourceTree = "<group>"; };
 		D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = SOURCE_ROOT; };
 		D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
@@ -188,6 +192,14 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
+		D59DC4131D93D0BD00AB8E6F /* CellConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				D59DC4141D93D0E100AB8E6F /* CellConfigurator.swift */,
+			);
+			name = CellConfigurator;
+			sourceTree = "<group>";
+		};
 		D5A2C95F1D830572004DEB41 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				D5ECA2861D9036320041C2F4 /* ErrorConvertible.swift */,
+				D594B9F21D9441E9006DDC20 /* Selectable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -267,6 +280,7 @@
 		D5A2C9701D830CAE004DEB41 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D59DC4131D93D0BD00AB8E6F /* CellConfigurator */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -541,10 +555,12 @@
 				D5A2C9721D830CAE004DEB41 /* ViewController.swift in Sources */,
 				D5ECA2871D9036320041C2F4 /* ErrorConvertible.swift in Sources */,
 				D5A2C9651D830582004DEB41 /* Localizations.swift in Sources */,
+				D59DC4151D93D0E100AB8E6F /* CellConfigurator.swift in Sources */,
 				D5ECA28B1D903FD10041C2F4 /* Timer.swift in Sources */,
 				D5A2C9841D831109004DEB41 /* String+Height.swift in Sources */,
 				D5A2C97B1D830EF2004DEB41 /* NSData+FastHex.m in Sources */,
 				D5A2C98F1D8313DA004DEB41 /* Color.swift in Sources */,
+				D594B9F31D9441E9006DDC20 /* Selectable.swift in Sources */,
 				D5ECA2811D9033190041C2F4 /* AppSetup.swift in Sources */,
 				D5A2C98D1D8312CB004DEB41 /* UIView+Geometry.swift in Sources */,
 				D5A2C9821D8310DB004DEB41 /* String+Width.swift in Sources */,
