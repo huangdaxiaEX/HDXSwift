@@ -8,7 +8,25 @@
 
 import UIKit
 
-class SwitcherTableViewCell: UITableViewCell {
+struct SwitcherTableViewCellModel {
+    let image: UIImage
+    let title: String
+    let on: Bool
+    let switchClosure: (switcher: UISwitch) -> Void
+    
+    init(image: UIImage, title: String, on: Bool, switchClosure: (switcher: UISwitch) -> Void) {
+        self.image = image
+        self.title = title
+        self.on = on
+        self.switchClosure = switchClosure
+    }
+    
+}
+
+class SwitcherTableViewCell: UITableViewCell, CellViewModel {
+    typealias ViewModel = SwitcherTableViewCellModel
+    var viewModel: ViewModel?
+    
     private lazy var switcher: UISwitch = {
         let switcher = UISwitch()
         switcher.onTintColor = Color.CyanLight.color()
@@ -26,10 +44,22 @@ class SwitcherTableViewCell: UITableViewCell {
     }
     
     private func setup() {
-        accessoryView = switcher
         selectionStyle = .None
         textLabel?.textColor = UIColor.blackColor()
         backgroundColor = UIColor.whiteColor()
+        accessoryView = switcher
+        switcher.onTintColor = Color.CyanLight.color()
+        switcher.addTarget(self, action: #selector(SwitcherTableViewCell.switchValueDidChange(_:)), forControlEvents: .ValueChanged)
     }
     
+    func switchValueDidChange(switcher: UISwitch) {
+        viewModel?.switchClosure(switcher: switcher)
+    }
+    
+    func configure(viewModel: ViewModel) {
+        self.viewModel = viewModel
+        textLabel?.text = viewModel.title
+        imageView?.image = viewModel.image
+        switcher.setOn(viewModel.on, animated: false)
+    }
 }

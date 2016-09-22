@@ -17,6 +17,7 @@
 		D594B9F81D944637006DDC20 /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594B9F71D944637006DDC20 /* SliderTableViewCell.swift */; };
 		D594B9FB1D944719006DDC20 /* UILabel+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594B9FA1D944719006DDC20 /* UILabel+Factory.swift */; };
 		D594B9FD1D9449F9006DDC20 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594B9FC1D9449F9006DDC20 /* TextFieldTableViewCell.swift */; };
+		D594B9FF1D944B55006DDC20 /* PlainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594B9FE1D944B55006DDC20 /* PlainTableViewCell.swift */; };
 		D59DC2E81D918DF900AB8E6F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59DC2E71D918DF900AB8E6F /* WebViewController.swift */; };
 		D59DC4151D93D0E100AB8E6F /* CellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59DC4141D93D0E100AB8E6F /* CellConfigurator.swift */; };
 		D5A2C9491D82FEA8004DEB41 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */; };
@@ -65,6 +66,7 @@
 		D594B9F71D944637006DDC20 /* SliderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
 		D594B9FA1D944719006DDC20 /* UILabel+Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Factory.swift"; sourceTree = "<group>"; };
 		D594B9FC1D9449F9006DDC20 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		D594B9FE1D944B55006DDC20 /* PlainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainTableViewCell.swift; sourceTree = "<group>"; };
 		D59DC2E71D918DF900AB8E6F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		D59DC4141D93D0E100AB8E6F /* CellConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellConfigurator.swift; sourceTree = "<group>"; };
 		D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = SOURCE_ROOT; };
@@ -206,6 +208,7 @@
 				D594B9F51D94452C006DDC20 /* SwitcherTableViewCell.swift */,
 				D594B9F71D944637006DDC20 /* SliderTableViewCell.swift */,
 				D594B9FC1D9449F9006DDC20 /* TextFieldTableViewCell.swift */,
+				D594B9FE1D944B55006DDC20 /* PlainTableViewCell.swift */,
 			);
 			name = TableViewCells;
 			sourceTree = "<group>";
@@ -587,6 +590,7 @@
 				D594B9FB1D944719006DDC20 /* UILabel+Factory.swift in Sources */,
 				D59DC4151D93D0E100AB8E6F /* CellConfigurator.swift in Sources */,
 				D5ECA28B1D903FD10041C2F4 /* Timer.swift in Sources */,
+				D594B9FF1D944B55006DDC20 /* PlainTableViewCell.swift in Sources */,
 				D5A2C9841D831109004DEB41 /* String+Height.swift in Sources */,
 				D594B9F81D944637006DDC20 /* SliderTableViewCell.swift in Sources */,
 				D5A2C97B1D830EF2004DEB41 /* NSData+FastHex.m in Sources */,
