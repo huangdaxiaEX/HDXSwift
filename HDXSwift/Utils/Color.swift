@@ -16,6 +16,7 @@ enum Color: UInt32 {
     case CyanAccent = 0x007770
     case CyanDunkel = 0x004635
     
+    case CellSelectedColor = 0xe0e0e0
 }
 
 extension Color {

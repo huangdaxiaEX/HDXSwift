@@ -13,6 +13,10 @@
 		D566530E1D82E968009A299A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56653091D82E968009A299A /* Info.plist */; };
 		D56653121D82FDD1009A299A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56653111D82FDD1009A299A /* Alamofire.framework */; };
 		D594B9F31D9441E9006DDC20 /* Selectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594B9F21D9441E9006DDC20 /* Selectable.swift */; };
+		D594B9F61D94452C006DDC20 /* SwitcherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594B9F51D94452C006DDC20 /* SwitcherTableViewCell.swift */; };
+		D594B9F81D944637006DDC20 /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594B9F71D944637006DDC20 /* SliderTableViewCell.swift */; };
+		D594B9FB1D944719006DDC20 /* UILabel+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594B9FA1D944719006DDC20 /* UILabel+Factory.swift */; };
+		D594B9FD1D9449F9006DDC20 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594B9FC1D9449F9006DDC20 /* TextFieldTableViewCell.swift */; };
 		D59DC2E81D918DF900AB8E6F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59DC2E71D918DF900AB8E6F /* WebViewController.swift */; };
 		D59DC4151D93D0E100AB8E6F /* CellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59DC4141D93D0E100AB8E6F /* CellConfigurator.swift */; };
 		D5A2C9491D82FEA8004DEB41 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */; };
@@ -57,6 +61,10 @@
 		D56653091D82E968009A299A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D56653111D82FDD1009A299A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
 		D594B9F21D9441E9006DDC20 /* Selectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selectable.swift; sourceTree = "<group>"; };
+		D594B9F51D94452C006DDC20 /* SwitcherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitcherTableViewCell.swift; sourceTree = "<group>"; };
+		D594B9F71D944637006DDC20 /* SliderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
+		D594B9FA1D944719006DDC20 /* UILabel+Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Factory.swift"; sourceTree = "<group>"; };
+		D594B9FC1D9449F9006DDC20 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
 		D59DC2E71D918DF900AB8E6F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		D59DC4141D93D0E100AB8E6F /* CellConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellConfigurator.swift; sourceTree = "<group>"; };
 		D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = SOURCE_ROOT; };
@@ -192,6 +200,24 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
+		D594B9F41D9444F7006DDC20 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				D594B9F51D94452C006DDC20 /* SwitcherTableViewCell.swift */,
+				D594B9F71D944637006DDC20 /* SliderTableViewCell.swift */,
+				D594B9FC1D9449F9006DDC20 /* TextFieldTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		D594B9F91D9446FC006DDC20 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				D594B9FA1D944719006DDC20 /* UILabel+Factory.swift */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
 		D59DC4131D93D0BD00AB8E6F /* CellConfigurator */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +245,7 @@
 		D5A2C9681D830CAE004DEB41 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D594B9F91D9446FC006DDC20 /* Label */,
 				D5A2C9901D83159B004DEB41 /* Image */,
 				D5A2C98B1D8312BC004DEB41 /* View */,
 				D5A2C9731D830D99004DEB41 /* String */,
@@ -280,6 +307,7 @@
 		D5A2C9701D830CAE004DEB41 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D594B9F41D9444F7006DDC20 /* TableViewCells */,
 				D59DC4131D93D0BD00AB8E6F /* CellConfigurator */,
 			);
 			path = Views;
@@ -546,6 +574,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5A2C9751D830DB2004DEB41 /* String+HexData.swift in Sources */,
+				D594B9F61D94452C006DDC20 /* SwitcherTableViewCell.swift in Sources */,
 				D59DC2E81D918DF900AB8E6F /* WebViewController.swift in Sources */,
 				D5A2C9711D830CAE004DEB41 /* AppDelegate.swift in Sources */,
 				D5A2C9771D830DF3004DEB41 /* String+Trim.swift in Sources */,
@@ -555,9 +584,11 @@
 				D5A2C9721D830CAE004DEB41 /* ViewController.swift in Sources */,
 				D5ECA2871D9036320041C2F4 /* ErrorConvertible.swift in Sources */,
 				D5A2C9651D830582004DEB41 /* Localizations.swift in Sources */,
+				D594B9FB1D944719006DDC20 /* UILabel+Factory.swift in Sources */,
 				D59DC4151D93D0E100AB8E6F /* CellConfigurator.swift in Sources */,
 				D5ECA28B1D903FD10041C2F4 /* Timer.swift in Sources */,
 				D5A2C9841D831109004DEB41 /* String+Height.swift in Sources */,
+				D594B9F81D944637006DDC20 /* SliderTableViewCell.swift in Sources */,
 				D5A2C97B1D830EF2004DEB41 /* NSData+FastHex.m in Sources */,
 				D5A2C98F1D8313DA004DEB41 /* Color.swift in Sources */,
 				D594B9F31D9441E9006DDC20 /* Selectable.swift in Sources */,
@@ -565,6 +596,7 @@
 				D5A2C98D1D8312CB004DEB41 /* UIView+Geometry.swift in Sources */,
 				D5A2C9821D8310DB004DEB41 /* String+Width.swift in Sources */,
 				D5ECA2891D903A2B0041C2F4 /* APIInvoker.swift in Sources */,
+				D594B9FD1D9449F9006DDC20 /* TextFieldTableViewCell.swift in Sources */,
 				D5ECA27D1D90314D0041C2F4 /* CommonAPI.swift in Sources */,
 				D5A2C9881D8311A3004DEB41 /* String+Emoji.swift in Sources */,
 				D5A2C98A1D8311FE004DEB41 /* String+Version.swift in Sources */,
