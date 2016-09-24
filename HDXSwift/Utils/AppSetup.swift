@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import SwiftyBeaver
+
+let log = SwiftyBeaver.self
 
 enum AppTarget {
     case Test
@@ -37,6 +40,15 @@ class AppSetup {
     private init() {
         target = .Production
         isDebugging = true
+        
+        setupLogger()
+    }
+    
+    private func setupLogger() {
+        if isDebugging {
+            log.addDestination(ConsoleDestination())
+        }
+        log.debug("")
     }
     
     class func isChinese() -> Bool {

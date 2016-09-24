@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D50F3CF81D96D6F2002F07CF /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F3CF71D96D6F2002F07CF /* Button.swift */; };
 		D50F3CFA1D96EC24002F07CF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F3CF91D96EC24002F07CF /* View.swift */; };
+		D50F3CFC1D96F256002F07CF /* Archiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F3CFB1D96F256002F07CF /* Archiver.swift */; };
+		D50F3CFE1D96F2AB002F07CF /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50F3CFD1D96F2AB002F07CF /* Gloss.framework */; };
+		D50F3D001D96F315002F07CF /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50F3CFF1D96F315002F07CF /* SwiftyBeaver.framework */; };
 		D566530B1D82E968009A299A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56653041D82E968009A299A /* LaunchScreen.storyboard */; };
 		D566530C1D82E968009A299A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56653061D82E968009A299A /* Main.storyboard */; };
 		D566530D1D82E968009A299A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56653081D82E968009A299A /* Images.xcassets */; };
@@ -59,6 +62,9 @@
 		2A1CF98228BACFEAA7DF7248 /* Pods_HDXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50F3CF71D96D6F2002F07CF /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		D50F3CF91D96EC24002F07CF /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		D50F3CFB1D96F256002F07CF /* Archiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archiver.swift; sourceTree = "<group>"; };
+		D50F3CFD1D96F2AB002F07CF /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = Carthage/Build/iOS/Gloss.framework; sourceTree = SOURCE_ROOT; };
+		D50F3CFF1D96F315002F07CF /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = SOURCE_ROOT; };
 		D56652EE1D82E57B009A299A /* HDXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56653051D82E968009A299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D56653071D82E968009A299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -111,6 +117,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50F3D001D96F315002F07CF /* SwiftyBeaver.framework in Frameworks */,
+				D50F3CFE1D96F2AB002F07CF /* Gloss.framework in Frameworks */,
 				D5A2C9491D82FEA8004DEB41 /* Cartography.framework in Frameworks */,
 				D5A2C94E1D82FEA8004DEB41 /* RxBlocking.framework in Frameworks */,
 				D5A2C94F1D82FEA8004DEB41 /* RxCocoa.framework in Frameworks */,
@@ -203,6 +211,8 @@
 		D56653101D82FD76009A299A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D50F3CFF1D96F315002F07CF /* SwiftyBeaver.framework */,
+				D50F3CFD1D96F2AB002F07CF /* Gloss.framework */,
 				D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */,
 				D5A2C9431D82FEA8004DEB41 /* RxBlocking.framework */,
 				D5A2C9441D82FEA8004DEB41 /* RxCocoa.framework */,
@@ -291,6 +301,7 @@
 				D5A2C98E1D8313DA004DEB41 /* Color.swift */,
 				D5ECA2801D9033190041C2F4 /* AppSetup.swift */,
 				D5ECA28A1D903FD10041C2F4 /* Timer.swift */,
+				D50F3CFB1D96F256002F07CF /* Archiver.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -519,6 +530,8 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Gloss.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyBeaver.framework",
 			);
 			name = "Carthage Script";
 			outputPaths = (
@@ -619,6 +632,7 @@
 				D5ECA27D1D90314D0041C2F4 /* CommonAPI.swift in Sources */,
 				D50F3CFA1D96EC24002F07CF /* View.swift in Sources */,
 				D5A2C9881D8311A3004DEB41 /* String+Emoji.swift in Sources */,
+				D50F3CFC1D96F256002F07CF /* Archiver.swift in Sources */,
 				D5A2C98A1D8311FE004DEB41 /* String+Version.swift in Sources */,
 				D5ECA27F1D9032340041C2F4 /* TargetType.swift in Sources */,
 			);

@@ -66,8 +66,8 @@ extension CommonAPI {
             }
         }
         
-        var rawVaule: Int {
-            return self.rawVaule
+        var rawValue: Int {
+            return self.rawValue
         }
     }
 }

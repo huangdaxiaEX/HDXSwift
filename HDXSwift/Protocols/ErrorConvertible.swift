@@ -12,7 +12,7 @@ protocol ErrorConvertible: ErrorType {
     var domain: String { get }
     var reson: String { get }
     
-    var rawVaule: Int { get }
+    var rawValue: Int { get }
     
     func error() -> NSError
 }
@@ -22,7 +22,11 @@ extension ErrorConvertible {
         return "\(self)"
     }
     
+    var rawValue: Int {
+        return self.rawValue
+    }
+    
     func error() -> NSError {
-        return NSError(domain: domain, code: rawVaule, userInfo: [NSLocalizedDescriptionKey : reson])
+        return NSError(domain: domain, code: rawValue, userInfo: [NSLocalizedDescriptionKey : reson])
     }
 }
