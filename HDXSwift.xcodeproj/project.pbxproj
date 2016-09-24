@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D50F3CF81D96D6F2002F07CF /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F3CF71D96D6F2002F07CF /* Button.swift */; };
+		D50F3CFA1D96EC24002F07CF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F3CF91D96EC24002F07CF /* View.swift */; };
 		D566530B1D82E968009A299A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56653041D82E968009A299A /* LaunchScreen.storyboard */; };
 		D566530C1D82E968009A299A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56653061D82E968009A299A /* Main.storyboard */; };
 		D566530D1D82E968009A299A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56653081D82E968009A299A /* Images.xcassets */; };
@@ -57,6 +58,7 @@
 		1E5A4545EC9D30C9AD698E3B /* Pods-HDXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDXSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDXSwift/Pods-HDXSwift.release.xcconfig"; sourceTree = "<group>"; };
 		2A1CF98228BACFEAA7DF7248 /* Pods_HDXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50F3CF71D96D6F2002F07CF /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		D50F3CF91D96EC24002F07CF /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		D56652EE1D82E57B009A299A /* HDXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56653051D82E968009A299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D56653071D82E968009A299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 				D50F3CF61D96D6E6002F07CF /* Button */,
 				D594B9F41D9444F7006DDC20 /* TableViewCells */,
 				D59DC4131D93D0BD00AB8E6F /* CellConfigurator */,
+				D50F3CF91D96EC24002F07CF /* View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -614,6 +617,7 @@
 				D594B9FD1D9449F9006DDC20 /* TextFieldTableViewCell.swift in Sources */,
 				D50F3CF81D96D6F2002F07CF /* Button.swift in Sources */,
 				D5ECA27D1D90314D0041C2F4 /* CommonAPI.swift in Sources */,
+				D50F3CFA1D96EC24002F07CF /* View.swift in Sources */,
 				D5A2C9881D8311A3004DEB41 /* String+Emoji.swift in Sources */,
 				D5A2C98A1D8311FE004DEB41 /* String+Version.swift in Sources */,
 				D5ECA27F1D9032340041C2F4 /* TargetType.swift in Sources */,
