@@ -46,6 +46,27 @@
 		D5A2C98D1D8312CB004DEB41 /* UIView+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C98C1D8312CB004DEB41 /* UIView+Geometry.swift */; };
 		D5A2C98F1D8313DA004DEB41 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C98E1D8313DA004DEB41 /* Color.swift */; };
 		D5A2C9921D8315A8004DEB41 /* Image+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9911D8315A8004DEB41 /* Image+Color.swift */; };
+		D5D030151DA4E9C500AD93F8 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030141DA4E9C500AD93F8 /* SnowView.swift */; };
+		D5D030171DA4EA7800AD93F8 /* EmitterLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030161DA4EA7800AD93F8 /* EmitterLayerView.swift */; };
+		D5D0301A1DA4F0C800AD93F8 /* Int+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030191DA4F0C800AD93F8 /* Int+CGFloat.swift */; };
+		D5D0301C1DA4F3C600AD93F8 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0301B1DA4F3C600AD93F8 /* LaunchView.swift */; };
+		D5D0301F1DA4F91600AD93F8 /* Layer+MaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0301E1DA4F91600AD93F8 /* Layer+MaskLayer.swift */; };
+		D5D0302F1DA50B9C00AD93F8 /* ImageEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0302E1DA50B9C00AD93F8 /* ImageEditorViewController.swift */; };
+		D5D030321DA50BC400AD93F8 /* ImageEditorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030311DA50BC400AD93F8 /* ImageEditorDelegate.swift */; };
+		D5D030341DA50BE700AD93F8 /* ImageEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030331DA50BE700AD93F8 /* ImageEditor.swift */; };
+		D5D030381DA5110800AD93F8 /* ImageToolConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030371DA5110800AD93F8 /* ImageToolConfigurable.swift */; };
+		D5D0303A1DA513B800AD93F8 /* BlurTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030391DA513B800AD93F8 /* BlurTool.swift */; };
+		D5D0303C1DA513DB00AD93F8 /* ClippingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0303B1DA513DB00AD93F8 /* ClippingTool.swift */; };
+		D5D0303E1DA513F900AD93F8 /* EffectTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0303D1DA513F900AD93F8 /* EffectTool.swift */; };
+		D5D030411DA5403000AD93F8 /* Image+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030401DA5403000AD93F8 /* Image+Utility.swift */; };
+		D5D030431DA5442500AD93F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D030421DA5442400AD93F8 /* CoreGraphics.framework */; };
+		D5D030461DA6392300AD93F8 /* MenuPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030451DA6392300AD93F8 /* MenuPanelView.swift */; };
+		D5D0304B1DA63A6600AD93F8 /* MenuPanelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0304A1DA63A6600AD93F8 /* MenuPanelViewModel.swift */; };
+		D5D0304D1DA63B8D00AD93F8 /* ImageToolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0304C1DA63B8D00AD93F8 /* ImageToolModel.swift */; };
+		D5D0304F1DA6477C00AD93F8 /* ImageTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0304E1DA6477C00AD93F8 /* ImageTools.swift */; };
+		D5D030511DA649DE00AD93F8 /* FilterTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030501DA649DE00AD93F8 /* FilterTool.swift */; };
+		D5D030531DA65B3600AD93F8 /* AdjustmentTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030521DA65B3600AD93F8 /* AdjustmentTool.swift */; };
+		D5D030551DA65BEC00AD93F8 /* ToneCurveTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D030541DA65BEC00AD93F8 /* ToneCurveTool.swift */; };
 		D5ECA2781D9026B80041C2F4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D5ECA2771D9026B80041C2F4 /* Settings.bundle */; };
 		D5ECA27D1D90314D0041C2F4 /* CommonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ECA27C1D90314D0041C2F4 /* CommonAPI.swift */; };
 		D5ECA27F1D9032340041C2F4 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ECA27E1D9032340041C2F4 /* TargetType.swift */; };
@@ -103,6 +124,27 @@
 		D5A2C98C1D8312CB004DEB41 /* UIView+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Geometry.swift"; sourceTree = "<group>"; };
 		D5A2C98E1D8313DA004DEB41 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D5A2C9911D8315A8004DEB41 /* Image+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Color.swift"; sourceTree = "<group>"; };
+		D5D030141DA4E9C500AD93F8 /* SnowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
+		D5D030161DA4EA7800AD93F8 /* EmitterLayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmitterLayerView.swift; sourceTree = "<group>"; };
+		D5D030191DA4F0C800AD93F8 /* Int+CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+CGFloat.swift"; sourceTree = "<group>"; };
+		D5D0301B1DA4F3C600AD93F8 /* LaunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		D5D0301E1DA4F91600AD93F8 /* Layer+MaskLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Layer+MaskLayer.swift"; sourceTree = "<group>"; };
+		D5D0302E1DA50B9C00AD93F8 /* ImageEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEditorViewController.swift; sourceTree = "<group>"; };
+		D5D030311DA50BC400AD93F8 /* ImageEditorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEditorDelegate.swift; sourceTree = "<group>"; };
+		D5D030331DA50BE700AD93F8 /* ImageEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEditor.swift; sourceTree = "<group>"; };
+		D5D030371DA5110800AD93F8 /* ImageToolConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageToolConfigurable.swift; sourceTree = "<group>"; };
+		D5D030391DA513B800AD93F8 /* BlurTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurTool.swift; sourceTree = "<group>"; };
+		D5D0303B1DA513DB00AD93F8 /* ClippingTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClippingTool.swift; sourceTree = "<group>"; };
+		D5D0303D1DA513F900AD93F8 /* EffectTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectTool.swift; sourceTree = "<group>"; };
+		D5D030401DA5403000AD93F8 /* Image+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Utility.swift"; sourceTree = "<group>"; };
+		D5D030421DA5442400AD93F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5D030451DA6392300AD93F8 /* MenuPanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPanelView.swift; sourceTree = "<group>"; };
+		D5D0304A1DA63A6600AD93F8 /* MenuPanelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPanelViewModel.swift; sourceTree = "<group>"; };
+		D5D0304C1DA63B8D00AD93F8 /* ImageToolModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageToolModel.swift; sourceTree = "<group>"; };
+		D5D0304E1DA6477C00AD93F8 /* ImageTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTools.swift; sourceTree = "<group>"; };
+		D5D030501DA649DE00AD93F8 /* FilterTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTool.swift; sourceTree = "<group>"; };
+		D5D030521DA65B3600AD93F8 /* AdjustmentTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustmentTool.swift; sourceTree = "<group>"; };
+		D5D030541DA65BEC00AD93F8 /* ToneCurveTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneCurveTool.swift; sourceTree = "<group>"; };
 		D5ECA2771D9026B80041C2F4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		D5ECA27C1D90314D0041C2F4 /* CommonAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonAPI.swift; sourceTree = "<group>"; };
 		D5ECA27E1D9032340041C2F4 /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
@@ -117,6 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5D030431DA5442500AD93F8 /* CoreGraphics.framework in Frameworks */,
 				D50F3D001D96F315002F07CF /* SwiftyBeaver.framework in Frameworks */,
 				D50F3CFE1D96F2AB002F07CF /* Gloss.framework in Frameworks */,
 				D5A2C9491D82FEA8004DEB41 /* Cartography.framework in Frameworks */,
@@ -211,6 +254,7 @@
 		D56653101D82FD76009A299A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5D030421DA5442400AD93F8 /* CoreGraphics.framework */,
 				D50F3CFF1D96F315002F07CF /* SwiftyBeaver.framework */,
 				D50F3CFD1D96F2AB002F07CF /* Gloss.framework */,
 				D5A2C93E1D82FEA8004DEB41 /* Cartography.framework */,
@@ -270,6 +314,8 @@
 		D5A2C9681D830CAE004DEB41 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D5D0301D1DA4F8F500AD93F8 /* Layer */,
+				D5D030181DA4F0B500AD93F8 /* Int */,
 				D594B9F91D9446FC006DDC20 /* Label */,
 				D5A2C9901D83159B004DEB41 /* Image */,
 				D5A2C98B1D8312BC004DEB41 /* View */,
@@ -333,10 +379,14 @@
 		D5A2C9701D830CAE004DEB41 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D5D030271DA507E000AD93F8 /* ImageEditor */,
 				D50F3CF61D96D6E6002F07CF /* Button */,
 				D594B9F41D9444F7006DDC20 /* TableViewCells */,
 				D59DC4131D93D0BD00AB8E6F /* CellConfigurator */,
 				D50F3CF91D96EC24002F07CF /* View.swift */,
+				D5D030141DA4E9C500AD93F8 /* SnowView.swift */,
+				D5D030161DA4EA7800AD93F8 /* EmitterLayerView.swift */,
+				D5D0301B1DA4F3C600AD93F8 /* LaunchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -378,6 +428,92 @@
 				D5A2C9911D8315A8004DEB41 /* Image+Color.swift */,
 			);
 			name = Image;
+			sourceTree = "<group>";
+		};
+		D5D030181DA4F0B500AD93F8 /* Int */ = {
+			isa = PBXGroup;
+			children = (
+				D5D030191DA4F0C800AD93F8 /* Int+CGFloat.swift */,
+			);
+			name = Int;
+			sourceTree = "<group>";
+		};
+		D5D0301D1DA4F8F500AD93F8 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				D5D0301E1DA4F91600AD93F8 /* Layer+MaskLayer.swift */,
+			);
+			name = Layer;
+			sourceTree = "<group>";
+		};
+		D5D030271DA507E000AD93F8 /* ImageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				D5D030471DA63A0300AD93F8 /* Model */,
+				D5D030441DA6391400AD93F8 /* View */,
+				D5D0303F1DA5275F00AD93F8 /* Utils */,
+				D5D030301DA50BAA00AD93F8 /* Protocols */,
+				D5D0302B1DA50B6200AD93F8 /* ViewController */,
+				D5D030281DA5085900AD93F8 /* ImageTools */,
+				D5D030331DA50BE700AD93F8 /* ImageEditor.swift */,
+			);
+			name = ImageEditor;
+			sourceTree = "<group>";
+		};
+		D5D030281DA5085900AD93F8 /* ImageTools */ = {
+			isa = PBXGroup;
+			children = (
+				D5D030391DA513B800AD93F8 /* BlurTool.swift */,
+				D5D0303B1DA513DB00AD93F8 /* ClippingTool.swift */,
+				D5D0303D1DA513F900AD93F8 /* EffectTool.swift */,
+				D5D0304E1DA6477C00AD93F8 /* ImageTools.swift */,
+				D5D030501DA649DE00AD93F8 /* FilterTool.swift */,
+				D5D030521DA65B3600AD93F8 /* AdjustmentTool.swift */,
+				D5D030541DA65BEC00AD93F8 /* ToneCurveTool.swift */,
+			);
+			name = ImageTools;
+			sourceTree = "<group>";
+		};
+		D5D0302B1DA50B6200AD93F8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D5D0302E1DA50B9C00AD93F8 /* ImageEditorViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		D5D030301DA50BAA00AD93F8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D5D030311DA50BC400AD93F8 /* ImageEditorDelegate.swift */,
+				D5D030371DA5110800AD93F8 /* ImageToolConfigurable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		D5D0303F1DA5275F00AD93F8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D5D030401DA5403000AD93F8 /* Image+Utility.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D5D030441DA6391400AD93F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5D030451DA6392300AD93F8 /* MenuPanelView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D5D030471DA63A0300AD93F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5D0304A1DA63A6600AD93F8 /* MenuPanelViewModel.swift */,
+				D5D0304C1DA63B8D00AD93F8 /* ImageToolModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		D5ECA27B1D9031200041C2F4 /* Network */ = {
@@ -605,32 +741,52 @@
 			files = (
 				D5A2C9751D830DB2004DEB41 /* String+HexData.swift in Sources */,
 				D594B9F61D94452C006DDC20 /* SwitcherTableViewCell.swift in Sources */,
+				D5D0303A1DA513B800AD93F8 /* BlurTool.swift in Sources */,
 				D59DC2E81D918DF900AB8E6F /* WebViewController.swift in Sources */,
 				D5A2C9711D830CAE004DEB41 /* AppDelegate.swift in Sources */,
+				D5D0303E1DA513F900AD93F8 /* EffectTool.swift in Sources */,
+				D5D030461DA6392300AD93F8 /* MenuPanelView.swift in Sources */,
 				D5A2C9771D830DF3004DEB41 /* String+Trim.swift in Sources */,
 				D5A2C9921D8315A8004DEB41 /* Image+Color.swift in Sources */,
 				D5A2C9861D831142004DEB41 /* String+Substraction.swift in Sources */,
+				D5D030381DA5110800AD93F8 /* ImageToolConfigurable.swift in Sources */,
+				D5D0304D1DA63B8D00AD93F8 /* ImageToolModel.swift in Sources */,
 				D5A2C95E1D830512004DEB41 /* Images.swift in Sources */,
 				D5A2C9721D830CAE004DEB41 /* ViewController.swift in Sources */,
+				D5D0302F1DA50B9C00AD93F8 /* ImageEditorViewController.swift in Sources */,
 				D5ECA2871D9036320041C2F4 /* ErrorConvertible.swift in Sources */,
 				D5A2C9651D830582004DEB41 /* Localizations.swift in Sources */,
 				D594B9FB1D944719006DDC20 /* UILabel+Factory.swift in Sources */,
 				D59DC4151D93D0E100AB8E6F /* CellConfigurator.swift in Sources */,
+				D5D030341DA50BE700AD93F8 /* ImageEditor.swift in Sources */,
+				D5D030531DA65B3600AD93F8 /* AdjustmentTool.swift in Sources */,
+				D5D0304B1DA63A6600AD93F8 /* MenuPanelViewModel.swift in Sources */,
+				D5D030511DA649DE00AD93F8 /* FilterTool.swift in Sources */,
+				D5D030321DA50BC400AD93F8 /* ImageEditorDelegate.swift in Sources */,
 				D5ECA28B1D903FD10041C2F4 /* Timer.swift in Sources */,
+				D5D0301A1DA4F0C800AD93F8 /* Int+CGFloat.swift in Sources */,
+				D5D0303C1DA513DB00AD93F8 /* ClippingTool.swift in Sources */,
+				D5D030551DA65BEC00AD93F8 /* ToneCurveTool.swift in Sources */,
 				D594B9FF1D944B55006DDC20 /* PlainTableViewCell.swift in Sources */,
 				D5A2C9841D831109004DEB41 /* String+Height.swift in Sources */,
 				D594B9F81D944637006DDC20 /* SliderTableViewCell.swift in Sources */,
+				D5D030151DA4E9C500AD93F8 /* SnowView.swift in Sources */,
 				D5A2C97B1D830EF2004DEB41 /* NSData+FastHex.m in Sources */,
+				D5D030171DA4EA7800AD93F8 /* EmitterLayerView.swift in Sources */,
 				D5A2C98F1D8313DA004DEB41 /* Color.swift in Sources */,
 				D594B9F31D9441E9006DDC20 /* Selectable.swift in Sources */,
 				D5ECA2811D9033190041C2F4 /* AppSetup.swift in Sources */,
 				D5A2C98D1D8312CB004DEB41 /* UIView+Geometry.swift in Sources */,
+				D5D0301C1DA4F3C600AD93F8 /* LaunchView.swift in Sources */,
+				D5D030411DA5403000AD93F8 /* Image+Utility.swift in Sources */,
 				D5A2C9821D8310DB004DEB41 /* String+Width.swift in Sources */,
 				D5ECA2891D903A2B0041C2F4 /* APIInvoker.swift in Sources */,
 				D594B9FD1D9449F9006DDC20 /* TextFieldTableViewCell.swift in Sources */,
 				D50F3CF81D96D6F2002F07CF /* Button.swift in Sources */,
 				D5ECA27D1D90314D0041C2F4 /* CommonAPI.swift in Sources */,
 				D50F3CFA1D96EC24002F07CF /* View.swift in Sources */,
+				D5D0301F1DA4F91600AD93F8 /* Layer+MaskLayer.swift in Sources */,
+				D5D0304F1DA6477C00AD93F8 /* ImageTools.swift in Sources */,
 				D5A2C9881D8311A3004DEB41 /* String+Emoji.swift in Sources */,
 				D50F3CFC1D96F256002F07CF /* Archiver.swift in Sources */,
 				D5A2C98A1D8311FE004DEB41 /* String+Version.swift in Sources */,
