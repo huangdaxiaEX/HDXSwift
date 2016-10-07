@@ -50,7 +50,8 @@ class ImageEditorViewController: ViewController, UIScrollViewDelegate {
         let W: CGFloat = 70
         var X: CGFloat = 0
         
-        for tool in ImageToolModel.list() {
+        let lists = [FilterTool(toolType: .Filter, imageEditor: self)]
+        for tool in lists {
             let view = UIView(frame: CGRect(x: X, y: 0, width: W, height: W))
             
             let iconView = UIImageView(frame: CGRect(x: 10, y: 5, width: 50, height: 50))

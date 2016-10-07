@@ -9,8 +9,9 @@
 import UIKit
 
 struct ImageToolModel {
-    static func list() -> [ImageToolConfigurable] {
-        return []
-    }
+//    static func list() -> [ImageToolConfigurable] {
+//        let t1 = FilterTool(toolType: .Filter, imageEditor: <#T##ImageEditorViewController#>)
+//        return [t1]
+//    }
 
 }

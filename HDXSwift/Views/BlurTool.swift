@@ -14,19 +14,19 @@ enum BlurType {
     case Circle
 }
 
-struct BlurTools: ImageToolConfigurable {
-    var iconImage: UIImage
-    var title: String
-    var isAvailable: Bool
-    var imageEditor: ImageEditorViewController
-    var toolType: ImageTools
-    
-    init(toolType: ImageTools, imageEditor: ImageEditorViewController) {
-        self.toolType = toolType
-        self.iconImage = toolType.iconImage()
-        self.title = toolType.title()
-        self.isAvailable = toolType.avaliable()
-        self.imageEditor = imageEditor
-    }
-    
-}
+//struct BlurTools: ImageToolConfigurable {
+//    var iconImage: UIImage
+//    var title: String
+//    var isAvailable: Bool
+//    var imageEditor: ImageEditorViewController
+//    var toolType: ImageTools
+//    
+//    init(toolType: ImageTools, imageEditor: ImageEditorViewController) {
+//        self.toolType = toolType
+//        self.iconImage = toolType.iconImage()
+//        self.title = toolType.title()
+//        self.isAvailable = toolType.avaliable()
+//        self.imageEditor = imageEditor
+//    }
+//    
+//}

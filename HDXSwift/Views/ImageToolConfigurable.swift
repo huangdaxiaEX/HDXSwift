@@ -16,6 +16,8 @@ protocol ImageToolConfigurable {
     var imageEditor: ImageEditorViewController { get }
     
     init(toolType: ImageTools, imageEditor: ImageEditorViewController)
+    func setup()
+    func cleanup()
     func executeWithCompletionBlock(completion: (image: UIImage, error: NSError) -> Void)
 
 }
