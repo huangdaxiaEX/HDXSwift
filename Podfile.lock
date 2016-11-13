@@ -1,15 +1,28 @@
 PODS:
   - DynamicColor (2.4.0)
+  - SwiftFilePath (0.0.6)
   - SwiftGen (3.0.0)
 
 DEPENDENCIES:
   - DynamicColor (~> 2.0)
+  - SwiftFilePath (from `https://github.com/huangdaxiaEX/SwiftFilePath.git`, branch `swift_23`)
   - SwiftGen
+
+EXTERNAL SOURCES:
+  SwiftFilePath:
+    :branch: swift_23
+    :git: https://github.com/huangdaxiaEX/SwiftFilePath.git
+
+CHECKOUT OPTIONS:
+  SwiftFilePath:
+    :commit: c3b1d614d33b5a2f67095ca46f7e8df84d381237
+    :git: https://github.com/huangdaxiaEX/SwiftFilePath.git
 
 SPEC CHECKSUMS:
   DynamicColor: 2f3fd61053684667bad9f03045dcf9a2a5a007ea
+  SwiftFilePath: 52c1db61018e0a3941191eb71002cb5cbdaa39e7
   SwiftGen: f679cd0ed4173a5da3b01efd0da23542bf82f6ab
 
-PODFILE CHECKSUM: a10cffbf3c3902a575c51278fd875f7dad71adfd
+PODFILE CHECKSUM: 7ca3006792ea856f32801a049c1abac629fb9563
 
 COCOAPODS: 1.0.1

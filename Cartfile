@@ -1,6 +1,19 @@
+# Network
 github "Alamofire/Alamofire"  ~> 3.5.0
+
+# Rx
 github "ReactiveX/RxSwift" ~>2.0
+
+# Util
 git "https://github.com/malcommac/SwiftDate.git" "feature/swift_23"
 github "SwiftyJSON/SwiftyJSON" ~> 2.3
+github "pluralsight/PSOperations" ~> 2.3
+github "antitypical/Result" ~> 2.1.3
+git "https://github.com/huangdaxiaEX/SwiftyBeaver.git" "swift_23"
+
+# UI
 github "robb/Cartography" ~> 0.7
-#github "hkellaway/Gloss" ~> 0.7
+#github "hkellaway/Gloss" ~> 0.8
+
+# DB
+github "realm/realm-cocoa" "master"

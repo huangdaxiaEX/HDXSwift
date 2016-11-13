@@ -4,7 +4,7 @@ target 'HDXSwift' do
   use_frameworks!
 
   # Pods for HDXSwift
-
+  pod 'SwiftFilePath', :git => 'https://github.com/huangdaxiaEX/SwiftFilePath.git', :branch => 'swift_23'
   pod 'SwiftGen'
   pod 'DynamicColor', '~> 2.0'
 
