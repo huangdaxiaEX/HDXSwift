@@ -17,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         AppSetup.shareInstance
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window!.backgroundColor = UIColor.blackColor()
+        window!.makeKeyAndVisible()
+        let vc = ImageEditorViewController(image: Images.LaunchFile)
+        window!.rootViewController = vc
         return true
     }
 

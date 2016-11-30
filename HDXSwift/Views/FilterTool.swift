@@ -32,7 +32,6 @@ class FilterTool: ImageToolConfigurable {
         self.filterScrollView = UIScrollView(frame: imageEditor.menuScrollView.frame)
         filterScrollView.backgroundColor = imageEditor.menuScrollView.backgroundColor
         filterScrollView.showsHorizontalScrollIndicator = false
-        self.setup()
     }
     
     func setup() {

@@ -16,6 +16,7 @@ extension UIImage {
         CGContextFillRect(context!, CGRect(origin: .zero, size: size))
         let image = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
+        
         return image!
     }
     

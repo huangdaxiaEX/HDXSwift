@@ -493,14 +493,14 @@ class ClippingTool: ImageToolConfigurable {
         self.isAvailable = toolType.avaliable()
         self.imageEditor = imageEditor
         
+        print(imageEditor.menuScrollView.frame)
         menuContainer = UIView(frame: imageEditor.menuScrollView.frame)
         menuScroll = UIScrollView(frame: CGRect(x: 0, y: 0, width: menuContainer.width - 70, height: menuContainer.height))
         gridView = ClippingPanel(superview: imageEditor.scrollView, frame: imageEditor.imageView.frame)
-        setup()
     }
     
     func setup() {
-        menuContainer.backgroundColor = imageEditor.menuScrollView.backgroundColor
+        menuContainer.backgroundColor = imageEditor.menuScrollView.backgroundColor ?? .whiteColor()
         imageEditor.view.addSubview(menuContainer)
         
         menuScroll.backgroundColor = .clearColor()
@@ -520,10 +520,17 @@ class ClippingTool: ImageToolConfigurable {
         btn.adjustsImageWhenHighlighted = true
         btnPanel.addSubview(btn)
         
+        setCropMenu()
+        
         gridView.backgroundColor = .clearColor()
         gridView.setBgColor(imageEditor.view.backgroundColor!.colorWithAlphaComponent(0.8))
         gridView.setGridColor(UIColor.darkGrayColor().colorWithAlphaComponent(0.8))
         gridView.clipsToBounds = false
+        
+        menuContainer.transform = CGAffineTransformMakeTranslation(0, imageEditor.view.height - menuScroll.top)
+        UIView.animateWithDuration(kCLImageToolAnimationDuration) {
+            self.menuContainer.transform = CGAffineTransformIdentity
+        }
     }
     
     @objc func pushedRotateBtn() {

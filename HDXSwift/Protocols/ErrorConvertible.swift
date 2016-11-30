@@ -29,4 +29,5 @@ extension ErrorConvertible {
     func error() -> NSError {
         return NSError(domain: domain, code: rawValue, userInfo: [NSLocalizedDescriptionKey : reson])
     }
+    
 }

@@ -40,7 +40,8 @@ extension UIImage {
         var H = size.height
         let imageRef = self.CGImage!
         let colorSpaceInfo = CGImageGetColorSpace(imageRef)!
-        let bitMap = CGBitmapContextCreate(nil, Int(W), Int(H), 8, 4 * Int(W), colorSpaceInfo, CGImageAlphaInfo.First.rawValue | CGBitmapInfo.ByteOrder32Little.rawValue)!
+        let bitmapInfo = CGImageGetBitmapInfo(imageRef)
+        let bitMap = CGBitmapContextCreate(nil, Int(W), Int(H), 8, 4 * Int(W), colorSpaceInfo, bitmapInfo.rawValue)!
         if imageOrientation == .Left || imageOrientation == .Right {
             W = size.height
             H = size.width
@@ -78,7 +79,10 @@ extension UIImage {
         
         let imageRef = self.CGImage!
         let colorSpaceInfo = CGImageGetColorSpace(imageRef)!
-        let bitMap = CGBitmapContextCreate(nil, Int(W), Int(H), 8, 4 * Int(W), colorSpaceInfo, CGImageAlphaInfo.First.rawValue | CGBitmapInfo.ByteOrder32Little.rawValue)!
+        let bitmapInfo = CGImageGetBitmapInfo(imageRef)
+//            CGBitmapInfo(rawValue: CGImageAlphaInfo.First.rawValue | CGBitmapInfo.ByteOrder32Little.rawValue)
+  
+        let bitMap = CGBitmapContextCreate(nil, Int(W), Int(H), 8, 4 * Int(W), colorSpaceInfo, bitmapInfo.rawValue)!
         
         if imageOrientation == .Left || imageOrientation == .Right {
             W = size.height

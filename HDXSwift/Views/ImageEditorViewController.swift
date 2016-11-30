@@ -14,15 +14,16 @@ let kCLImageToolFadeoutDuration = 0.2
 class ImageEditorViewController: ViewController, UIScrollViewDelegate {
 
     private weak var delegate: ImageEditorDelegate?
+    var currentTool: ImageToolConfigurable?
     
     var originalImage: UIImage
     
-    var imageView: UIImageView = UIImageView()
+    var imageView: UIImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: UIScreen.mainScreen().bounds.width, height: UIScreen.mainScreen().bounds.height - 124))
     
-    var scrollView: UIScrollView = UIScrollView()
+    var scrollView: UIScrollView = UIScrollView(frame: CGRect(x: 0, y: 64, width: UIScreen.mainScreen().bounds.width, height: UIScreen.mainScreen().bounds.height - 124))
     
     lazy var menuScrollView: UIScrollView = { [unowned self] in
-        let scrollView = UIScrollView()
+        let scrollView = UIScrollView(frame: CGRect(x: 0, y: self.view.height - 60, width: self.view.width, height: 60))
         scrollView.delegate = self
         scrollView.showsHorizontalScrollIndicator = false
         
@@ -31,6 +32,8 @@ class ImageEditorViewController: ViewController, UIScrollViewDelegate {
     
     init(image: UIImage) {
         self.originalImage = image
+        imageView.image = image
+        imageView.contentMode = .ScaleAspectFill
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -43,15 +46,26 @@ class ImageEditorViewController: ViewController, UIScrollViewDelegate {
         automaticallyAdjustsScrollViewInsets = false
         navigationController?.interactivePopGestureRecognizer?.enabled = false
         
+        
+        scrollView.addSubview(imageView)
+        imageView.center = scrollView.center
+        view.addSubview(scrollView)
+        view.addSubview(menuScrollView)
+        
         setupMenu()
+        refreshImageView()
     }
     
+    var list: [ImageToolConfigurable]?
     func setupMenu() {
         let W: CGFloat = 70
         var X: CGFloat = 0
         
-        let lists = [FilterTool(toolType: .Filter, imageEditor: self)]
-        for tool in lists {
+        list = [FilterTool(toolType: .Filter, imageEditor: self), ClippingTool(toolType: .Clipping, imageEditor: self)]
+        for tool in list! {
+            if currentTool == nil {
+                currentTool = tool
+            }
             let view = UIView(frame: CGRect(x: X, y: 0, width: W, height: W))
             
             let iconView = UIImageView(frame: CGRect(x: 10, y: 5, width: 50, height: 50))
@@ -79,6 +93,8 @@ class ImageEditorViewController: ViewController, UIScrollViewDelegate {
         UIView.animateWithDuration(kCLImageToolAnimationDuration) { 
             view.alpha = 1
         }
+        currentTool?.setup()
+        currentTool = list![1]
     }
     
     func resetImageViewFrame() {
@@ -86,6 +102,7 @@ class ImageEditorViewController: ViewController, UIScrollViewDelegate {
             var rect = self.imageView.frame
             rect.size = CGSize(width: self.scrollView.zoomScale * self.imageView.image!.size.width, height: self.scrollView.zoomScale * self.imageView.image!.size.height)
             self.imageView.frame = rect
+            self.imageView.center = self.scrollView.center
         }
     }
     
